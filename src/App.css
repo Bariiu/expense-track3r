@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  font-family: 'Calibri', 'Segoe UI', sans-serif;
+  background-color: white;
+  color: black;
+}
+
+.app-container {
+  display: flex;
+  height: 100px;
+  width: 100px;
+}
+.form-container {
+  width: 300px;
+  background-color: gainsboro;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+
+h2 {
+  font-size: 18px;
+  color: brown;
+  margin-bottom: 4px;
+  font-weight: bold;
+}
+
+.expense-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.expense-form input,
+.expense-form button {
+  padding: 10px 12px;
+  font-size: 13px;
+  border-radius: 0;
+  border: 1px solid gray;
+  background-color: white;
+  color: black;
+}
+
+.expense-form input:focus {
+  border-color: burlywood;
+  outline: none;
+  background-color: gainsboro;
+}
+
+.expense-form button {
+  background-color: brown;
+  color: burlywood;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.expense-form button:hover {
+  background-color: burlywood;
+  color: brown;
+}
+
+.expenses-container {
+  flex: 1;
+  padding: 24px;
+  overflow-y: auto;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.search-bar {
+  width: 100wh;
+  padding: 10px;
+  margin-bottom: 12px;
+  font-size: 13px;
+  color: black;
+  border: 1px solid gray;
+  background-color: white;
+}
+
+.sort-toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 20px;
+  font-size: 13px;
+  color: brown;
+}
+
+.expenses-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+  background-color: white;
+  border: 1px solid gray;
+}
+
+.expenses-table th,
+.expenses-table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid gray;
+}
+
+.expenses-table thead {
+  background-color: burlywood;
+  color: brown;
+  font-weight: bold;
+}
+
+.expenses-table td button {
+  padding: 6px 10px;
+  font-size: 12px;
+  color: white;
+  background-color: darkred;
+  border: none;
+  cursor: pointer;
+}
+
+.expenses-table td button:hover {
+  background-color: red;
+}
+.app-container {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 100vh;
+  width: 100vw;
+}
+
+.form-container {
+  width: 300px;
+  background-color: gainsboro;
+  padding: 20px;
+  border-left: 2px solid gainsboro; 
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
